@@ -1,0 +1,8 @@
+dependencies {
+    // Pehle se maujood Firebase dependecies ke sath ye jodein:
+    implementation 'com.google.firebase:firebase-firestore:24.10.0' // Chat database ke liye
+    implementation 'com.onesignal:OneSignal:[5.0.0, 5.99.99]'       // Notification ke liye
+    
+    // WebRTC Calling ke liye ZegoCloud (Sabse aasan aur best quality)
+    implementation 'com.github.ZEGOCLOUD:zego_uikit_prebuilt_call_android:+' 
+}
